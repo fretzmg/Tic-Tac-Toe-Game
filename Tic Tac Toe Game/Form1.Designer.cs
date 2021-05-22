@@ -120,9 +120,9 @@ namespace Tic_Tac_Toe_Game
             // 
             // btnNewGame
             // 
-            this.btnNewGame.Location = new System.Drawing.Point(323, 263);
+            this.btnNewGame.Location = new System.Drawing.Point(5, 324);
             this.btnNewGame.Name = "btnNewGame";
-            this.btnNewGame.Size = new System.Drawing.Size(100, 55);
+            this.btnNewGame.Size = new System.Drawing.Size(312, 55);
             this.btnNewGame.TabIndex = 9;
             this.btnNewGame.Text = "New Game";
             this.btnNewGame.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@ namespace Tic_Tac_Toe_Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 324);
+            this.ClientSize = new System.Drawing.Size(323, 386);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.C3);
             this.Controls.Add(this.B3);
