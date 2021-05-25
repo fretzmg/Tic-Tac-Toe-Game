@@ -43,94 +43,116 @@ namespace Tic_Tac_Toe_Game
             // 
             // A1
             // 
+            this.A1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.A1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A1.Location = new System.Drawing.Point(5, 6);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(100, 100);
             this.A1.TabIndex = 0;
-            this.A1.UseVisualStyleBackColor = true;
+            this.A1.UseVisualStyleBackColor = false;
             this.A1.Click += new System.EventHandler(this.A1_Click);
+            this.A1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.A1_MouseClick);
             // 
             // B1
             // 
+            this.B1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.B1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B1.Location = new System.Drawing.Point(5, 112);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(100, 100);
             this.B1.TabIndex = 1;
-            this.B1.UseVisualStyleBackColor = true;
+            this.B1.UseVisualStyleBackColor = false;
             this.B1.Click += new System.EventHandler(this.B1_Click);
             // 
             // C1
             // 
+            this.C1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.C1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C1.Location = new System.Drawing.Point(5, 218);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(100, 100);
             this.C1.TabIndex = 2;
-            this.C1.UseVisualStyleBackColor = true;
+            this.C1.UseVisualStyleBackColor = false;
             // 
             // A2
             // 
+            this.A2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.A2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A2.Location = new System.Drawing.Point(111, 6);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(100, 100);
             this.A2.TabIndex = 3;
-            this.A2.UseVisualStyleBackColor = true;
+            this.A2.UseVisualStyleBackColor = false;
             this.A2.Click += new System.EventHandler(this.A2_Click);
             // 
             // B2
             // 
+            this.B2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.B2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B2.Location = new System.Drawing.Point(111, 112);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(100, 100);
             this.B2.TabIndex = 4;
-            this.B2.UseVisualStyleBackColor = true;
+            this.B2.UseVisualStyleBackColor = false;
             // 
             // C2
             // 
+            this.C2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.C2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C2.Location = new System.Drawing.Point(111, 218);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(100, 100);
             this.C2.TabIndex = 5;
-            this.C2.UseVisualStyleBackColor = true;
+            this.C2.UseVisualStyleBackColor = false;
             // 
             // A3
             // 
+            this.A3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.A3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A3.Location = new System.Drawing.Point(217, 6);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(100, 100);
             this.A3.TabIndex = 6;
-            this.A3.UseVisualStyleBackColor = true;
+            this.A3.UseVisualStyleBackColor = false;
             this.A3.Click += new System.EventHandler(this.button7_Click);
             // 
             // B3
             // 
+            this.B3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.B3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B3.Location = new System.Drawing.Point(217, 112);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(100, 100);
             this.B3.TabIndex = 7;
-            this.B3.UseVisualStyleBackColor = true;
+            this.B3.UseVisualStyleBackColor = false;
             this.B3.Click += new System.EventHandler(this.B3_Click);
             // 
             // C3
             // 
+            this.C3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.C3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C3.Location = new System.Drawing.Point(217, 218);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(100, 100);
             this.C3.TabIndex = 8;
-            this.C3.UseVisualStyleBackColor = true;
+            this.C3.UseVisualStyleBackColor = false;
             // 
             // btnNewGame
             // 
+            this.btnNewGame.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnNewGame.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnNewGame.Location = new System.Drawing.Point(5, 324);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(312, 55);
             this.btnNewGame.TabIndex = 9;
             this.btnNewGame.Text = "New Game";
-            this.btnNewGame.UseVisualStyleBackColor = true;
+            this.btnNewGame.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(323, 386);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.C3);

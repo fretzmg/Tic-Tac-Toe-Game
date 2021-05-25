@@ -17,6 +17,7 @@ namespace Tic_Tac_Toe_Game
             InitializeComponent();
         }
 
+
         private void button7_Click(object sender, EventArgs e)
         {
 
@@ -24,13 +25,23 @@ namespace Tic_Tac_Toe_Game
 
         private void A1_Click(object sender, EventArgs e)
         {
+            A1.Text = " ";
+            if (A1.Text == " ")
+            {
+                A1.Text = "O";
+            }
+            else if (A1.Text == "X")
+            {
+              A1.Text = "X";
+            }
 
         }
 
         private void A2_Click(object sender, EventArgs e)
         {
-
+           
         }
+
 
         private void B3_Click(object sender, EventArgs e)
         {
@@ -38,6 +49,11 @@ namespace Tic_Tac_Toe_Game
         }
 
         private void B1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void A1_MouseClick(object sender, MouseEventArgs e)
         {
 
         }
