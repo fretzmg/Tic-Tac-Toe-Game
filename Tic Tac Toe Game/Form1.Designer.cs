@@ -50,8 +50,7 @@ namespace Tic_Tac_Toe_Game
             this.A1.Size = new System.Drawing.Size(100, 100);
             this.A1.TabIndex = 0;
             this.A1.UseVisualStyleBackColor = false;
-            this.A1.Click += new System.EventHandler(this.A1_Click);
-            this.A1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.A1_MouseClick);
+            this.A1.Click += new System.EventHandler(this.A1_Click);           
             // 
             // B1
             // 
