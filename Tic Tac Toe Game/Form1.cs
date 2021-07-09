@@ -17,6 +17,7 @@ namespace Tic_Tac_Toe_Game
         {
             InitializeComponent();
         }
+
         private void A1_Click(object sender, EventArgs e)
         { 
             A1.Text = TicTacToeLetter();
@@ -62,6 +63,7 @@ namespace Tic_Tac_Toe_Game
             C3.Text = TicTacToeLetter();
             C3.Enabled = false;
         }
+
         private String TicTacToeLetter()
         {
             if (player == "X")
@@ -75,6 +77,7 @@ namespace Tic_Tac_Toe_Game
             checkForWinner();
             return player;
         }
+
         private void btnNewGame_Click(object sender, EventArgs e)
         {
             A1.Text = "";
@@ -96,6 +99,7 @@ namespace Tic_Tac_Toe_Game
             C2.Enabled = true;
             C3.Enabled = true;
         }
+
         private void checkForWinner()
         {
             bool winner = false;       
