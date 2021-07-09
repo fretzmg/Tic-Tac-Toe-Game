@@ -50,7 +50,7 @@ namespace Tic_Tac_Toe_Game
             this.A1.Size = new System.Drawing.Size(100, 100);
             this.A1.TabIndex = 0;
             this.A1.UseVisualStyleBackColor = false;
-            this.A1.Click += new System.EventHandler(this.A1_Click);           
+            this.A1.Click += new System.EventHandler(this.A1_Click);
             // 
             // B1
             // 
@@ -116,7 +116,7 @@ namespace Tic_Tac_Toe_Game
             this.A3.Size = new System.Drawing.Size(100, 100);
             this.A3.TabIndex = 6;
             this.A3.UseVisualStyleBackColor = false;
-            this.A3.Click += new System.EventHandler(this.button7_Click);
+            this.A3.Click += new System.EventHandler(this.A3_Click);
             // 
             // B3
             // 
@@ -168,7 +168,10 @@ namespace Tic_Tac_Toe_Game
             this.Controls.Add(this.C1);
             this.Controls.Add(this.B1);
             this.Controls.Add(this.A1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "Tic Tac Toe";
             this.ResumeLayout(false);
 

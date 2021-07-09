@@ -17,11 +17,6 @@ namespace Tic_Tac_Toe_Game
         {
             InitializeComponent();
         }
-        private void button7_Click(object sender, EventArgs e)
-        { 
-            A3.Text = TicTacToeLetter();
-            A3.Enabled = false;
-        }
         private void A1_Click(object sender, EventArgs e)
         { 
             A1.Text = TicTacToeLetter();
@@ -31,6 +26,11 @@ namespace Tic_Tac_Toe_Game
         {
             A2.Text = TicTacToeLetter();
             A2.Enabled = false;
+        }
+        private void A3_Click(object sender, EventArgs e)
+        {
+            A3.Text = TicTacToeLetter();
+            A3.Enabled = false;
         }
         private void B3_Click(object sender, EventArgs e)
         { 
@@ -62,6 +62,19 @@ namespace Tic_Tac_Toe_Game
             C3.Text = TicTacToeLetter();
             C3.Enabled = false;
         }
+        private String TicTacToeLetter()
+        {
+            if (player == "X")
+            {
+                player = "O";
+            }
+            else
+            {
+                player = "X";
+            }
+            checkForWinner();
+            return player;
+        }
         private void btnNewGame_Click(object sender, EventArgs e)
         {
             A1.Text = "";
@@ -83,22 +96,9 @@ namespace Tic_Tac_Toe_Game
             C2.Enabled = true;
             C3.Enabled = true;
         }
-        private String TicTacToeLetter()
-        {
-            if (player == "X")
-            {
-                player = "O";
-            }
-            else
-            {
-                player = "X";
-            }
-            checkForWinner();
-            return player;   
-        }
         private void checkForWinner()
         {
-            bool winner = false;
+            bool winner = false;       
             if ((A1.Text == A2.Text) && (A2.Text == A3.Text) && (!A1.Enabled))
                 winner = true;
             else if ((B1.Text == B2.Text) && (B2.Text == B3.Text) && (!B1.Enabled))
