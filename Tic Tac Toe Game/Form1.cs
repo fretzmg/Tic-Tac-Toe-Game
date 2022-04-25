@@ -72,6 +72,7 @@ namespace Tic_Tac_Toe_Game
             }
             else
             {
+
                 player = "X";
             }
             checkForWinner();
