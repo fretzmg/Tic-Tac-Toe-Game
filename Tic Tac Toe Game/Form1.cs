@@ -12,7 +12,7 @@ namespace Tic_Tac_Toe_Game
 {
     public partial class Form1 : Form
     {   
-        String player = "O";
+        String player = "Y";
         public Form1()
         {
             InitializeComponent();
